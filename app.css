@@ -1,0 +1,42 @@
+body {
+    background-color: #222;
+}
+
+.shop-list {
+    min-width: 600px;
+    width: auto;
+    border-radius: 4px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 20px;
+    font-family: 'Sacramento', cursive;
+    padding: 20px;
+}
+.shop-list .title {
+    color: #343434;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.shop-list .list-items {
+    background-image: url(http://papierowa-encyklopedia.pl/wp-content/uploads/2014/09/papier.jpg);
+    background-position: center center;
+    padding: 30px 20px;
+    padding-bottom: 100px;
+}
+.shop-list .list-items > li {
+    display: flex;
+    border-bottom: 2px solid #9cc9e1;
+}
+.shop-list .list-items > li > span {
+    padding: 10px 5px;
+}
+.shop-list .list-items > li .item-name {
+    border-right: 2px solid #b43b3e;
+    flex-grow: 1;
+    padding-left: 20px;
+}
+.shop-list .list-items > li .item-quantity {
+    width: 150px;
+    text-align: center;
+}
